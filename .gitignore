@@ -1,0 +1,15 @@
+# Environment variables (API Keys)
+.env
+
+# Virtual Environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Local SQLite Database
+*.db
+
+# VS Code settings
+.vscode/
