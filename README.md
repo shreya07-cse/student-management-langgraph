@@ -8,14 +8,13 @@ A modular FastAPI backend application integrated with Gemini API and LangGraph t
 2. **CRUD API Endpoints**: Full REST API implementation for Create, Read, Update, and Delete operations on students.
 3. **Service Execution**: Running as an active web application service via Uvicorn.
 4. **Interactive API Documentation**: Fully documented and accessible using FastAPI Swagger UI (`/docs`).
-5. **AI Chatbot**: Text-to-SQL stateful computational graph using **LangGraph** and **Gemini 3.6 Flash**.
-6. **Vector Database Selection**:
-   - **Chosen Database**: **ChromaDB** / **FAISS**
-   - **Justification**: ChromaDB is selected for this project architecture because it is lightweight, open-source, zero-cost, and runs locally. It provides similarity search and embedding storage for unstructured student documents, complimenting our structured relational SQLite database without requiring external paid cloud infrastructure.
+5. **AI Chatbot**: Text-to-SQL stateful computational graph using **LangGraph** and **Gemini**.
+6. **Relational Database**: Lightweight, local **SQLite** database managed via SQLAlchemy.
+7. **Environment Security**: Sensitive keys and credentials are stored securely in `.env` and ignored by Git.
 
 ## Setup & Running Locally
 
 1. **Clone the repository**:
    ```bash
-   git clone <your-github-repo-link>
+   git clone [https://github.com/shreya07-cse/student-management-langgraph.git](https://github.com/shreya07-cse/student-management-langgraph.git)
    cd student_management_project
